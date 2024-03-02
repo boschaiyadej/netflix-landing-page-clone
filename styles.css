@@ -7,6 +7,7 @@
     font-weight: initial;
     font-family: "Kanit", sans-serif;
     font-size: 16px;
+    color: white;
 }
 
 .hero {
@@ -43,7 +44,6 @@ i {
     border: none;
     outline: none;
     background: transparent;
-    color: white;
 }
 
 nav option {
@@ -64,7 +64,6 @@ nav .select-lang {
     border: none;
     border-radius: 0.25rem;
     padding: 4px 14px;
-    color: white;
     font-weight: 600;
 }
 
@@ -85,14 +84,12 @@ nav .select-lang {
 .hero-content h2 {
     font-size: 2rem;
     font-weight: 600;
-    color: white;
     text-align: center;
 }
 
 .hero-content h3 {
     font-size: 1.2rem;
     font-weight: 400;
-    color: white;
     text-align: center;
 }
 
@@ -111,7 +108,6 @@ nav .select-lang {
     border: none;
     border-radius: 0.25rem;
     padding: 4px 14px;
-    color: white;
     font-weight: 600;
     height: 45px;
 }
@@ -124,10 +120,43 @@ nav .select-lang {
 .section-card {
     background-color: black;
     width: 100vw;
-    height: 50vh;
-
+    height: 100%;
+    padding: 50px 0;
 }
 
-.onlynetflix {
+.card-netflix {
     margin: 0 10%;
+}
+
+.card-netflix h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.poster-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card h2 {
+    text-align: center;
+    font-weight: 600;
 }
