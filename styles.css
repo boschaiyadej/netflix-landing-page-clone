@@ -31,6 +31,7 @@ nav {
 .logo-img {
     width: 9.25rem;
     height: 2.5rem;
+    cursor: pointer;
 }
 
 .nav-right {
