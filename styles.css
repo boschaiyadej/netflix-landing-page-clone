@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: initial;
+    text-decoration: initial;
+    font-weight: initial;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+}
+
+.hero {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/56ba55e9-4231-4440-ab13-9f8d013c6700/TH-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 10px solid gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0 10%;
+}
+
+.logo-img {
+    width: 9.25rem;
+    height: 2.5rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav select,
+i {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+nav option {
+    color: black;
+}
+
+nav .select-lang {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    border: 2px solid gray;
+    border-radius: 0.25rem;
+    padding: 2px 10px;
+
+}
+
+.nav-right button {
+    background-color: red;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 4px 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-right button:hover {
+    background-color: rgb(175, 0, 0);
+    cursor: pointer;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 16vh 10%;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.hero-content input[type='email'] {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    border: 2px solid gray;
+    border-radius: 0.25rem;
+    padding: 2px 10px;
+    width: 40vw;
+    height: 50px;
+}
+
+.hero-content button {
+    background-color: red;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 4px 14px;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+}
+
+.hero-content button:hover {
+    background-color: rgb(175, 0, 0);
+    cursor: pointer;
+}
+
+.section-card {
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+
+}
+
+.onlynetflix {
+    margin: 0 10%;
+}
