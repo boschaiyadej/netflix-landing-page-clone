@@ -13,7 +13,7 @@
 .hero {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/56ba55e9-4231-4440-ab13-9f8d013c6700/TH-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     width: 100vw;
     height: 80vh;
